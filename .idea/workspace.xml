@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="">
+    <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -22,11 +22,17 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/Reports/ExtentTestParent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/utils/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Framework added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Framework added" />
   </component>
 </project>
