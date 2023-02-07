@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Generic/CommonFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Listeners/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrangeHR/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OrangeHR/BaseClassConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Reports/ExtentLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Reports/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Reports/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Reports/ExtentTestParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DecisionMaking/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DecisionMaking/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JumpStatements/breakStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JumpStatements/continueStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Loops/doWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Loops/forLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Loops/whileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Generic/CommonFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generic/CommonFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Listeners/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrangeHR/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrangeHR/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrangeHR/BaseClassConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrangeHR/BaseClassConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DriverManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,23 +52,83 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/HHRA1231/IdeaProjects/WebAutomation"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="C:/Users/HHRA1231/IdeaProjects/SeleniumFramework/SeleniumFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.continueStatement">
+    <configuration name="breakStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JumpStatements.breakStatement" />
       <module name="SeleniumFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JumpStatements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="continueStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JumpStatements.continueStatement" />
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JumpStatements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doWhileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.doWhileLoop" />
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="forLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.forLoop" />
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="whileLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.whileLoop" />
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/HHRA1231/IdeaProjects/SeleniumFramework/SeleniumFramework/testng.xml" />
+        <item itemvalue="Application.continueStatement" />
+        <item itemvalue="Application.breakStatement" />
+        <item itemvalue="Application.doWhileLoop" />
+        <item itemvalue="Application.forLoop" />
+        <item itemvalue="Application.whileLoop" />
       </list>
     </recent_temporary>
   </component>

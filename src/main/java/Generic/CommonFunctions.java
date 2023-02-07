@@ -57,7 +57,7 @@ public class CommonFunctions {
     public boolean isElementDisplayed(WebElement locator){
         try {
             if (locator.isDisplayed())
-                System.out.println("Element is present on the screen ******* "+ locator);
+                System.out.println("Element is present on the screen ******* " + locator);
                 return true;
             } catch (NoSuchElementException e){
             System.out.println("Element is not present on screen ******* "+ locator);
