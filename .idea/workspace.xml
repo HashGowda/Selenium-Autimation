@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/AddElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/ArrayEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/LargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/LargestTwoElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/SingleDimArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/SmlLarElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StarPattern/DownwardTrianglePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StarPattern/LeftAngleTrianglePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StarPattern/MirroredRightAngleTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StarPattern/PyramidPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StarPattern/ReversePyramidPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StarPattern/RightAngleTrianglePatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StarPattern/RightDownMirrorPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StarPattern/SquarePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringPattern/ReverseTrianglePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringPattern/RightAngleTrianglePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringPattern/SquarePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringPattern/TriangleNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/DuplicateNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/EvenOddNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/FrequencyDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/RemoveDuplicateElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/SumArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +51,9 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HHRA1231/IdeaProjects/WebAutomation&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AddElement">
-    <configuration name="AddElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysExamples.AddElement" />
+  <component name="RunManager" selected="Application.FrequencyDuplicate">
+    <configuration name="DuplicateNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysExamples.DuplicateNumbers" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysExamples.ArrayEx" />
+    <configuration name="EvenOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysExamples.EvenOddNumbers" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysExamples.LargestElement" />
+    <configuration name="FrequencyDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysExamples.FrequencyDuplicate" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestTwoElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysExamples.LargestTwoElement" />
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysExamples.RemoveElement" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmlLarElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysExamples.SmlLarElement" />
+    <configuration name="SumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysExamples.SumArray" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AddElement" />
-        <item itemvalue="Application.LargestTwoElement" />
-        <item itemvalue="Application.SmlLarElement" />
-        <item itemvalue="Application.LargestElement" />
-        <item itemvalue="Application.ArrayEx" />
+        <item itemvalue="Application.FrequencyDuplicate" />
+        <item itemvalue="Application.DuplicateNumbers" />
+        <item itemvalue="Application.SumArray" />
+        <item itemvalue="Application.EvenOddNumbers" />
+        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
