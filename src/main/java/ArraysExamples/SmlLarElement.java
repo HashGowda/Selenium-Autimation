@@ -5,7 +5,11 @@ import java.util.Arrays;
 public class SmlLarElement {
 
     public static void main(String[] args) {
-        int a[]={55, 10, 8, 90, 43, 87, 95, 25, 50, 12};
+        int a[] = {55, 10, 8, 90, 43, 87, 95, 25, 50, 12};
+        smallLargeElement(a);
+    }
+
+    static void smallLargeElement(int a[]){
         int n;
         System.out.println("Array: "+Arrays.toString(a));
         int l=a.length;

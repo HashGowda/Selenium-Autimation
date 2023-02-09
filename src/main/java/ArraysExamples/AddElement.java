@@ -5,7 +5,11 @@ import java.util.Arrays;
 public class AddElement {
 
     public static void main(String[] args) {
-        int a[]={1,2,3,4,5,6};
+        int a[] = {1, 2, 3, 4, 5, 6};
+        addElement(a);
+    }
+
+    static void addElement(int a[]){
         int n=a.length;
         int newA[]= new int[n+1];
         int value=7;
