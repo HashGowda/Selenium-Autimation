@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/ArrayAscend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/ArrayDescend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/ElementOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/MergeArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/SortNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/SplitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/LargestSmallest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/RemoveCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/ReverseWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/CharacterOccurrence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/CompareStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/DuplicateCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/DuplicateWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/RemoveCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/StringPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysExamples/AddElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/AddElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysExamples/DuplicateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/DuplicateNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysExamples/EvenOddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/EvenOddNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysExamples/FrequencyDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/FrequencyDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysExamples/LargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/LargestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysExamples/LargestTwoElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/LargestTwoElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysExamples/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysExamples/SmlLarElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/SmlLarElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArraysExamples/SumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArraysExamples/SumArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringPattern/ReverseTrianglePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringPattern/ReverseTrianglePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringPattern/RightAngleTrianglePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringPattern/RightAngleTrianglePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringPattern/SquarePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringPattern/SquarePattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +52,13 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HHRA1231/IdeaProjects/WebAutomation&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TriangleNumbers">
-    <configuration name="ReverseTrianglePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPattern.ReverseTrianglePattern" />
+  <component name="RunManager" selected="Application.RemoveCharacter">
+    <configuration name="CharacterOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringExamples.CharacterOccurrence" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringPattern.*" />
+          <option name="PATTERN" value="StringExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightAngleTrianglePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPattern.RightAngleTrianglePattern" />
+    <configuration name="RemoveCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringExamples.RemoveCharacter" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringPattern.*" />
+          <option name="PATTERN" value="StringExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquarePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPattern.SquarePattern" />
+    <configuration name="RemoveCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringExamples.RemoveCharacters" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringPattern.*" />
+          <option name="PATTERN" value="StringExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysExamples.SumArray" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysExamples.ReverseArray" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPattern.TriangleNumbers" />
+    <configuration name="StringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringExamples.StringPalindrome" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringPattern.*" />
+          <option name="PATTERN" value="StringExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TriangleNumbers" />
-        <item itemvalue="Application.SquarePattern" />
-        <item itemvalue="Application.RightAngleTrianglePattern" />
-        <item itemvalue="Application.ReverseTrianglePattern" />
-        <item itemvalue="Application.SumArray" />
+        <item itemvalue="Application.RemoveCharacter" />
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.RemoveCharacters" />
+        <item itemvalue="Application.StringPalindrome" />
+        <item itemvalue="Application.CharacterOccurrence" />
       </list>
     </recent_temporary>
   </component>
