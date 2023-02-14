@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/Even66To42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/Numbers21To31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/Numbers57To38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/OddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/ReverseTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/SumFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/Tables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constructors/ConstrOverLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constructors/CopyConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constructors/DefConstr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constructors/DefParamConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constructors/ParamConstr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constructors/StudentA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constructors/StudentB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/SwapInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringExamples/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringExamples/ReverseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +54,13 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HHRA1231/IdeaProjects/WebAutomation&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseTable">
-    <configuration name="Even66To42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.Even66To42" />
+  <component name="RunManager" selected="Application.StudentB">
+    <configuration name="ConstrOverLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Constructors.ConstrOverLoading" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImpPrograms.*" />
+          <option name="PATTERN" value="Constructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringExamples.ReverseString" />
+    <configuration name="CopyConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Constructors.CopyConstructor" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringExamples.*" />
+          <option name="PATTERN" value="Constructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.ReverseTable" />
+    <configuration name="DefParamConst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Constructors.DefParamConst" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImpPrograms.*" />
+          <option name="PATTERN" value="Constructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.SumFirst" />
+    <configuration name="StudentA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Constructors.StudentA" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImpPrograms.*" />
+          <option name="PATTERN" value="Constructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.Tables" />
+    <configuration name="StudentB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Constructors.StudentB" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImpPrograms.*" />
+          <option name="PATTERN" value="Constructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseTable" />
-        <item itemvalue="Application.Even66To42" />
-        <item itemvalue="Application.Tables" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.SumFirst" />
+        <item itemvalue="Application.StudentB" />
+        <item itemvalue="Application.StudentA" />
+        <item itemvalue="Application.DefParamConst" />
+        <item itemvalue="Application.CopyConstructor" />
+        <item itemvalue="Application.ConstrOverLoading" />
       </list>
     </recent_temporary>
   </component>
