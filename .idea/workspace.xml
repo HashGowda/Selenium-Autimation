@@ -5,33 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Encapsulation/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Encapsulation/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Encapsulation/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Encapsulation/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ArthmtcException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/Exception1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/Exception2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/Exception3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/Exception4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/Exception5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/Exception6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/Exception7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/Exception8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FinalKeyword/FinalMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FinalKeyword/FinalVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/PalindromeEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/SwapStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringPattern/PatternString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SuperKeyword/Constructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SuperKeyword/Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SuperKeyword/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayToList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/HashMapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/HashSetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/LinkedListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/MapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/SetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/DuplicateCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/DuplicateWordsCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/LargestSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/PrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/WordsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/ReverseWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Generic/CommonFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generic/CommonFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,35 +70,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SwapStrings">
-    <configuration name="FinalKey (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalKeyword.FinalKey" />
-      <module name="SeleniumFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FinalKeyword.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinalVaribale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalKeyword.FinalVaribale" />
-      <module name="SeleniumFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FinalKeyword.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.Palindrome" />
+  <component name="RunManager" selected="Application.WordsDuplicate">
+    <configuration name="DuplicateWordsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImpPrograms.DuplicateWordsCount" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.PalindromeEx" />
+    <configuration name="LargestSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImpPrograms.LargestSmallest" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -130,21 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringPattern.PatternString" />
-      <module name="SeleniumFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.ReverseString" />
+    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImpPrograms.PrimeNumbers" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -156,8 +110,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.SwapStrings" />
+    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringExamples.ReverseWords" />
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImpPrograms.WordsDuplicate" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SwapStrings" />
-        <item itemvalue="Application.PatternString" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.PalindromeEx" />
-        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.WordsDuplicate" />
+        <item itemvalue="Application.ReverseWords" />
+        <item itemvalue="Application.PrimeNumbers" />
+        <item itemvalue="Application.LargestSmallest" />
+        <item itemvalue="Application.DuplicateWordsCount" />
       </list>
     </recent_temporary>
   </component>
