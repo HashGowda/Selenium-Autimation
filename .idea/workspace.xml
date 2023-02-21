@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayListEx5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ArrayToList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/HashMapEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/HashSetEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/LinkedListEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/ListEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/MapEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Collections/SetEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/DuplicateCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/DuplicateWordsCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/LargestSmallest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/PrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImpPrograms/WordsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringExamples/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ActionFunctions/DragDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ActionFunctions/MouseHover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DifferentSendkeys/SendKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DoubleClick/ClickDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dropdown/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicXpath/DatePicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Frames/HandlingFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +58,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WordsDuplicate">
-    <configuration name="DuplicateWordsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.DuplicateWordsCount" />
+  <component name="RunManager" selected="Application.ClickDouble">
+    <configuration name="ClickDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoubleClick.ClickDouble" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImpPrograms.*" />
+          <option name="PATTERN" value="DoubleClick.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.LargestSmallest" />
+    <configuration name="DatePicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicXpath.DatePicker" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImpPrograms.*" />
+          <option name="PATTERN" value="DynamicXpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.PrimeNumbers" />
+    <configuration name="DropDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dropdown.DropDown" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImpPrograms.*" />
+          <option name="PATTERN" value="Dropdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringExamples.ReverseWords" />
+    <configuration name="HandlingFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Frames.HandlingFrame" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringExamples.*" />
+          <option name="PATTERN" value="Frames.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.WordsDuplicate" />
+    <configuration name="SendKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DifferentSendkeys.SendKeys" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImpPrograms.*" />
+          <option name="PATTERN" value="DifferentSendkeys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordsDuplicate" />
-        <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.PrimeNumbers" />
-        <item itemvalue="Application.LargestSmallest" />
-        <item itemvalue="Application.DuplicateWordsCount" />
+        <item itemvalue="Application.ClickDouble" />
+        <item itemvalue="Application.HandlingFrame" />
+        <item itemvalue="Application.DatePicker" />
+        <item itemvalue="Application.DropDown" />
+        <item itemvalue="Application.SendKeys" />
       </list>
     </recent_temporary>
   </component>
