@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ActionFunctions/DragDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ActionFunctions/MouseHover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DifferentSendkeys/SendKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DoubleClick/ClickDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dropdown/DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicXpath/DatePicker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Frames/HandlingFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassRobot/RobotClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassRobot/RobotClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumWaits/ExpWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumWaits/ImpExpWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumWaits/ImpWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebAuto/AlertClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebAuto/AutoDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebAuto/DatePicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebAuto/RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WebAuto/RadioButton2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +61,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClickDouble">
-    <configuration name="ClickDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubleClick.ClickDouble" />
+  <component name="RunManager" selected="Application.AutoDropDown">
+    <configuration name="AutoDropDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebAuto.AutoDropDown" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DoubleClick.*" />
+          <option name="PATTERN" value="WebAuto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="DatePicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicXpath.DatePicker" />
+      <option name="MAIN_CLASS_NAME" value="Browser.DatePicker" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DynamicXpath.*" />
+          <option name="PATTERN" value="Browser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dropdown.DropDown" />
+    <configuration name="RadioButton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebAuto.RadioButton" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dropdown.*" />
+          <option name="PATTERN" value="WebAuto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandlingFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Frames.HandlingFrame" />
+    <configuration name="RadioButton2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebAuto.RadioButton2" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Frames.*" />
+          <option name="PATTERN" value="WebAuto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DifferentSendkeys.SendKeys" />
+    <configuration name="WindowHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebAuto.WindowHandle" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DifferentSendkeys.*" />
+          <option name="PATTERN" value="WebAuto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClickDouble" />
-        <item itemvalue="Application.HandlingFrame" />
+        <item itemvalue="Application.AutoDropDown" />
+        <item itemvalue="Application.RadioButton2" />
+        <item itemvalue="Application.RadioButton" />
+        <item itemvalue="Application.WindowHandle" />
         <item itemvalue="Application.DatePicker" />
-        <item itemvalue="Application.DropDown" />
-        <item itemvalue="Application.SendKeys" />
       </list>
     </recent_temporary>
   </component>
