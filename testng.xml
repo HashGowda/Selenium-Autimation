@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test name="Group Test">
+    <test name="Annotation Test">
         <classes>
-            <class name="TestNG.GroupsEx">
-                <methods>
-                    <include name="test1"/>
-                    <include name="test2"/>
-                    <include name="test3"/>
-                    <include name="test4"/>
-                    <include name="test5"/>
-                    <include name="test6"/>
-                </methods>
+            <class name="TestNG.SimpleAnnotations">
             </class>
         </classes>
     </test>

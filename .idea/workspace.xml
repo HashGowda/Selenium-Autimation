@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/Annotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/DataProviderEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/DependsOn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/GroupsEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ListenersTestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ParameterEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/BasicReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/CustomizeReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/JsonPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/SampleReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/ScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/TestNGReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/SimpleAnnotations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,16 +90,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataProviderEx" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonPrint" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNG.*" />
+          <option name="PATTERN" value="ExtentReport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.DataProviderEx" />
+      <option name="PACKAGE_NAME" value="ExtentReport" />
+      <option name="MAIN_CLASS_NAME" value="ExtentReport.JsonPrint" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -98,16 +107,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupsEx" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ScreenShot" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNG.*" />
+          <option name="PATTERN" value="ExtentReport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.GroupsEx" />
+      <option name="PACKAGE_NAME" value="ExtentReport" />
+      <option name="MAIN_CLASS_NAME" value="ExtentReport.ScreenShot" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -115,17 +124,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupsEx.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ScreenShot.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNG.*" />
+          <option name="PATTERN" value="ExtentReport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.GroupsEx" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="ExtentReport" />
+      <option name="MAIN_CLASS_NAME" value="ExtentReport.ScreenShot" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,7 +142,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterEx.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleAnnotations" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -142,9 +151,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.ParameterEx" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.SimpleAnnotations" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,10 +162,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/HHRA1231/IdeaProjects/SeleniumFramework/SeleniumFramework/testng.xml" />
-        <item itemvalue="TestNG.GroupsEx" />
-        <item itemvalue="TestNG.GroupsEx.test5" />
-        <item itemvalue="TestNG.ParameterEx.test1" />
-        <item itemvalue="TestNG.DataProviderEx" />
+        <item itemvalue="TestNG.SimpleAnnotations" />
+        <item itemvalue="TestNG.ScreenShot.login" />
+        <item itemvalue="TestNG.ScreenShot" />
+        <item itemvalue="TestNG.JsonPrint" />
       </list>
     </recent_temporary>
   </component>
