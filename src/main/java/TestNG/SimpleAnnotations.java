@@ -21,24 +21,23 @@ public class SimpleAnnotations {
         System.out.println("Before method");
     }
     @Test
-    void beforeTest1(){
+    void test1(){
         System.out.println("Before test1");
     }
-
-    @AfterSuite
-    void afterSuite(){
-        System.out.println("After suite");
-    }
-    @AfterTest
-    void afterTest(){
-        System.out.println("After test");
+    @AfterMethod
+    void afterMethod(){
+        System.out.println("After method");
     }
     @AfterClass
     void afterClass(){
         System.out.println("After class");
     }
-    @AfterMethod
-    void afterMethod(){
-        System.out.println("After method");
+    @AfterTest
+    void afterTest(){
+        System.out.println("After test");
+    }
+    @AfterSuite
+    void afterSuite(){
+        System.out.println("After suite");
     }
 }
