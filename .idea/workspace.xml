@@ -5,35 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ListenersEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ListenersEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ListenersTestNG2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/LoginFailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/LoginSkipTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ParallelEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ParallelEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/ExtentReportsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/UtilityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ParallelTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ScreenshotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/UtilityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/SimpleAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/SimpleAnnotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestNG.Sample.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestNG.Sample.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestNG.SimpleAnnotations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestNG.SimpleAnnotations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports1.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports2.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/ParallelEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/ParallelEx2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,20 +59,21 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.E:/Software Testing/Java/SeleniumFramework/testng.xml">
-    <configuration name="DataProviderEx" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TestCases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ExtentReportsClass">
+    <configuration name="Tables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImpPrograms.Tables" />
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNG.*" />
+          <option name="PATTERN" value="ImpPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.DataProviderEx" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,16 +88,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupsEx" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentReportsClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNG.*" />
+          <option name="PATTERN" value="ExtentReport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.GroupsEx" />
+      <option name="PACKAGE_NAME" value="ExtentReport" />
+      <option name="MAIN_CLASS_NAME" value="ExtentReport.ExtentReportsClass" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -125,16 +105,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterEx" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ScreenshotTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNG.*" />
+          <option name="PATTERN" value="utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.ParameterEx" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.ScreenshotTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -142,16 +122,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Priority" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGReport" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestNG.*" />
+          <option name="PATTERN" value="ExtentReport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.Priority" />
+      <option name="PACKAGE_NAME" value="ExtentReport" />
+      <option name="MAIN_CLASS_NAME" value="ExtentReport.TestNGReport" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -161,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExtentReportsClass" />
+        <item itemvalue="TestNG.ScreenshotTest" />
+        <item itemvalue="TestNG.TestNGReport" />
+        <item itemvalue="Application.Tables" />
         <item itemvalue="TestNG.E:/Software Testing/Java/SeleniumFramework/testng.xml" />
-        <item itemvalue="TestNG.GroupsEx" />
-        <item itemvalue="TestNG.DataProviderEx" />
-        <item itemvalue="TestNG.ParameterEx" />
-        <item itemvalue="TestNG.Priority" />
       </list>
     </recent_temporary>
   </component>

@@ -1,5 +1,6 @@
 package TestNG;
 
+import TestNG.ParallelEx1;
 import io.appium.java_client.pagefactory.WithTimeout;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
