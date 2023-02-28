@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/ExtentReportsClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/UtilityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ParallelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/ParallelTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ScreenshotTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/UtilityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCases/ZohoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/ParallelEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/ParallelEx2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1677500377587.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExtentReport/ExtentReportsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/ExtentReportsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExtentReport/ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExtentReport/ScreenShot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,24 +60,35 @@
       <recent name="TestCases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ExtentReportsClass">
-    <configuration name="Tables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImpPrograms.Tables" />
+  <component name="RunManager" selected="TestNG.ZohoTest.zohoSignIn">
+    <configuration name="ExtentReportsClass (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImpPrograms.*" />
+          <option name="PATTERN" value="ExtentReport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ExtentReport" />
+      <option name="MAIN_CLASS_NAME" value="ExtentReport.ExtentReportsClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E:/Software Testing/Java/SeleniumFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentReportsClass (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExtentReport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ExtentReport" />
+      <option name="MAIN_CLASS_NAME" value="ExtentReport.ExtentReportsClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -105,34 +112,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScreenshotTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZohoTest.launchBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="TestCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.ScreenshotTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.ZohoTest" />
+      <option name="METHOD_NAME" value="launchBrowser" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGReport" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZohoTest.zohoSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExtentReport.*" />
+          <option name="PATTERN" value="TestCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ExtentReport" />
-      <option name="MAIN_CLASS_NAME" value="ExtentReport.TestNGReport" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.ZohoTest" />
+      <option name="METHOD_NAME" value="zohoSignIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ZohoTest.zohoSignIn" />
+        <item itemvalue="TestNG.ZohoTest.launchBrowser" />
+        <item itemvalue="TestNG.ExtentReportsClass (3)" />
+        <item itemvalue="TestNG.ExtentReportsClass (2)" />
         <item itemvalue="TestNG.ExtentReportsClass" />
-        <item itemvalue="TestNG.ScreenshotTest" />
-        <item itemvalue="TestNG.TestNGReport" />
-        <item itemvalue="Application.Tables" />
-        <item itemvalue="TestNG.E:/Software Testing/Java/SeleniumFramework/testng.xml" />
       </list>
     </recent_temporary>
   </component>

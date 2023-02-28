@@ -3,6 +3,7 @@ package ExtentReport;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -63,9 +64,9 @@ public class ScreenShot {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         test.info("Login button clicked");
         Thread.sleep(4000);
-        test.pass(MediaEntityBuilder.createScreenCaptureFromPath(getScreenShot()).build());
-        test.pass(MediaEntityBuilder.createScreenCaptureFromBase64String(getScreenShotBase64()).build());
-        test.pass(MediaEntityBuilder.createScreenCaptureFromBase64String(getBase64()).build());
+        test.pass((Markup) MediaEntityBuilder.createScreenCaptureFromPath(getScreenShot()).build());
+        test.pass((Markup) MediaEntityBuilder.createScreenCaptureFromBase64String(getScreenShotBase64()).build());
+        test.pass((Markup) MediaEntityBuilder.createScreenCaptureFromBase64String(getBase64()).build());
     }
 
     public String getScreenShot() throws IOException {

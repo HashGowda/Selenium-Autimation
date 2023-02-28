@@ -1,9 +1,12 @@
 package ExtentReport;
 
+import Reports.ExtentLogger;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Protocol;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -29,9 +32,18 @@ public class ExtentReportsClass {
 
     @BeforeMethod
     public void setUp(){
-        ExtentReports extent = new ExtentReports();
+
+        //downgrade extentreports version to 4.0.9 to attach a screenshot to the report
+
+//        ExtentHtmlReporter reporter = new ExtentHtmlReporter("ExtentReport/ScreenshotTest.html");
+//        extent = new ExtentReports();
+//        extent.attachReporter(reporter);
+//        test = extent.createTest("Login Test");
+
+
         ExtentSparkReporter spark = new ExtentSparkReporter("ExtentReport/ScreenshotTest.html");
         extent.attachReporter(spark);
+        test = extent.createTest("Login Test");
         spark.config().setTheme(Theme.DARK);
         spark.config().setDocumentTitle("Automation Test");
         spark.config().setReportName("Selenium Test");
