@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Framework1/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Framework1/CommonFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Framework1/PageClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Framework1/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNGModules/TitleVerify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNGModules/WithPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/BaseClassConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/ConstantsDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/ExtentLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/ExtentTestParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/GenericFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/LoginPageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/LoginPageObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Framework2/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/InValidLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SuperKeyword/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SuperKeyword/Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,16 +75,13 @@
       <recent name="TestCases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TitleVerify (1)">
-    <configuration name="HandlingFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Frames.HandlingFrame" />
+  <component name="RunManager" selected="TestNG.E:/Software Testing/Java/SeleniumFramework/testng.xml">
+    <configuration name="E:/Software Testing/Java/SeleniumFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Frames.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/Software Testing/Java/SeleniumFramework/testng.xml" />
         <item itemvalue="TestNG.TitleVerify (1)" />
         <item itemvalue="TestNG.TitleVerify" />
         <item itemvalue="TestNG.WithPriority" />
         <item itemvalue="TestNG.TestClass" />
-        <item itemvalue="Application.HandlingFrame" />
       </list>
     </recent_temporary>
   </component>
