@@ -28,16 +28,16 @@ public class TestListener extends BaseClassConfig implements ITestListener, ISui
 
     @Override
     public void onTestSuccess(ITestResult result){
-//        ExtentLogger.pass(result.getMethod().getMethodName()+" is passed");
+        ExtentLogger.pass(result.getMethod().getMethodName()+" is Passed");
     }
 
     @Override
     public void onTestFailure(ITestResult result){
-//        ExtentLogger.fail(result.getMethod().getMethodName()+ " is failed");
+        ExtentLogger.fail(result.getMethod().getMethodName()+ " is Failed");
     }
 
     @Override
     public void onTestSkipped(ITestResult result){
-//        ExtentLogger.skip(result.getMethod().getMethodName()+ " is skipped")
+        ExtentLogger.skip(result.getMethod().getMethodName()+ " is Skipped");
     }
 }

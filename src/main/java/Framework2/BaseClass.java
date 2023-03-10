@@ -11,7 +11,7 @@ public class BaseClass extends TestListener{
 
     @BeforeClass(alwaysRun = true)
     public void beforeClass(){
-        ExtentManager.configExtentTest(getClass().getName().substring(getClass().getName().lastIndexOf(".")+1));
+        ExtentManager.configExtentTest(getClass().getName().substring(getClass().getName().lastIndexOf('.')+1));
         launchDriver();
     }
 

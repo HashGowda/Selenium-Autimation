@@ -53,7 +53,7 @@ public class GenericFunctions {
         }
     }
 
-    public boolean isElementIsDisplayed(WebElement locator){
+    public boolean isElementDisplayed(WebElement locator){
         try {
             if (locator.isDisplayed())
                 System.out.println("Element present on screen ************" + locator);
@@ -66,7 +66,7 @@ public class GenericFunctions {
 
     public boolean isElementPresentAssertTrue(WebElement element){
         try {
-            Assert.assertTrue(isElementIsDisplayed(element));
+            Assert.assertTrue(isElementDisplayed(element));
         } catch (Exception e){
             System.out.println(element+ " The element is not found, Assertion failed");
         } return false;

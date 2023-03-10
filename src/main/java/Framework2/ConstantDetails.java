@@ -1,6 +1,6 @@
 package Framework2;
 
-public class ConstantsDetails {
+public interface ConstantDetails {
     String userName="Admin";
     String password="admin123";
     String invalidPassword="admin12";

@@ -6,6 +6,9 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 public class ExtentManager {
@@ -23,9 +26,10 @@ public class ExtentManager {
         }
     }
 
-    public static void flushReports() throws InterruptedException {
+    public static void flushReports() throws InterruptedException, IOException {
         Thread.sleep(2000);
         extent.flush();
+        Desktop.getDesktop().browse(new File("ExtentReport/Spark.html").toURI());
     }
 
     public static void configExtentTest(String className){

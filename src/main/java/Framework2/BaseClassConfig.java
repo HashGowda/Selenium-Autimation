@@ -24,13 +24,13 @@ public class BaseClassConfig {
         DriverManager.setDriver(driver);
     }
 
-    public void testResultsCapture(ITestResult result) {
+    public void testResultsCapture(ITestResult result) throws NullPointerException {
         System.out.println("=======================Check Status======================== " + result.getStatus());
 
         //Success Block
 
         if (result.getStatus() == ITestResult.SUCCESS) {
-            ExtentTestManager.getExtentTest().log(Status.PASS, result.getMethod().getMethodName() + "Passed");
+            ExtentTestManager.getExtentTest().log(Status.PASS, result.getMethod().getMethodName() + " Passed");
         }
 
             //Failure Block

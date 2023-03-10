@@ -4,16 +4,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPageObjects {
-    @FindBy(id="txtUsername")
+    @FindBy(name="username")
     public WebElement userName;
 
-    @FindBy(id="txtPassword")
+    @FindBy(name="password")
     public WebElement password;
 
-    @FindBy(id="btnLogin")
+    @FindBy(xpath="//button[contains(@type,'submit')]")
     public WebElement loginBtn;
 
-    @FindBy(id="menu_pim_viewMyDetails")
+    @FindBy(xpath="//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[6]/a/span")
     public WebElement viewMyDetails;
 }
 

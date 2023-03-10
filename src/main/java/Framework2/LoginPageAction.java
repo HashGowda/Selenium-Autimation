@@ -1,13 +1,10 @@
 package Framework2;
 
-import Framework2.ConstantsDetails;
-import Framework2.DriverManager;
-import Framework2.GenericFunctions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-public class LoginPageAction extends ConstantsDetails {
+public class LoginPageAction implements ConstantDetails {
     WebDriver driver;
     GenericFunctions generic;
     LoginPageObjects loginPageObjects = new LoginPageObjects();
@@ -33,6 +30,7 @@ public class LoginPageAction extends ConstantsDetails {
         generic.sendKeys(loginPageObjects.userName, userName,"Username");
         generic.sendKeys(loginPageObjects.password, invalidPassword,"Password");
         generic.waitAndClick(loginPageObjects.loginBtn,"Login Button");
+        Reporter.log("Entered incorrect credentials");
         generic.isElementPresentAssertTrue(loginPageObjects.viewMyDetails);
     }
 }
