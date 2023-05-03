@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b54b276-9991-4372-bba7-fb9a21361826" name="Changes" comment="Framework added">
-      <change afterPath="$PROJECT_DIR$/parallel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReport/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReport/Spark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/BaseClassConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/BaseClassConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/ConstantsDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/ConstantDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/ExtentLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/ExtentLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/ExtentTestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/ExtentTestManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/ExtentTestParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/ExtentTestParent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/GenericFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/GenericFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/LoginPageAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/LoginPageAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/LoginPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/LoginPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Framework2/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Framework2/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HHRA1231/IdeaProjects/SeleniumFramework/SeleniumFramework&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/Software Testing/Java/SeleniumFramework",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HHRA1231\IdeaProjects\SeleniumFramework\SeleniumFramework" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HHRA1231\IdeaProjects\SeleniumFramework\SeleniumFramework\src\main\resources" />
     </key>
@@ -75,9 +65,9 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.E:/Software Testing/Java/SeleniumFramework/testng.xml">
-    <configuration name="C:/Users/HHRA1231/IdeaProjects/SeleniumFramework/SeleniumFramework/parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="E:/Software Testing/Java/SeleniumFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -85,10 +75,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E:/Software Testing/Java/SeleniumFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Framework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Framework1" />
+      <option name="MAIN_CLASS_NAME" value="Framework1.TestClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/Software Testing/Java/SeleniumFramework/testng.xml" />
-        <item itemvalue="TestNG.C:/Users/HHRA1231/IdeaProjects/SeleniumFramework/SeleniumFramework/parallel.xml" />
         <item itemvalue="TestNG.TitleVerify (1)" />
         <item itemvalue="TestNG.TitleVerify" />
         <item itemvalue="TestNG.WithPriority" />
+        <item itemvalue="TestNG.TestClass" />
       </list>
     </recent_temporary>
   </component>
